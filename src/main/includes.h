@@ -1,0 +1,10 @@
+#include <iostream>
+#include <sstream>
+#include <sigc++/sigc++.h>
+#include <gtkmm.h>
+#include "matrix.h"
+#include "abrand.h"
+#include "xyplot.h"
+#include "transform.h"
+#include "timeseries.h"
+#include "otherplots.h"

@@ -1,0 +1,11 @@
+Anthony,
+
+        Attached please find the data I used for my thesis. There are 6 
+columns in the data set, and they correspond to the log-daily-returns of
+the Deutsche mark/USD, Swiss Franc/USD, British Pound/USD, Sweden 
+Krona/USD, Japanese Yen/USD, and Australia dollar/USD. The data starts 
+from Jan 03, 1994 and ends at Sep 12, 2001, a total of 1927 trading days. 
+Please let know if there is any information I could provide further.
+
+Cheers,
+  Philip  

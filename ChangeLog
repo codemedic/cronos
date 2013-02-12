@@ -1,0 +1,22 @@
+Version 1.0, July 2004.
+-----------------------------------------------------------------
+This version handles basic univariate ARIMA modeling (actually
+it just does ARMA modeling, but it allows you to difference the
+data before fitting the model, which is functionally equivalent
+to fitting an ARIMA model.
+
+It also handles GARCH modeling.
+
+Both families of models can be fit using either maximum-likelihood
+estimation or Markov chain Monte Carlo methods.  The MCMC approach
+is not sophisticated at this point.  10000 iterations of a chain are
+run, taking posteriors to be uniform over the space of allowable
+parameter values (theta, phi), and uninformative (very high
+variance) over the variance of the process.
+
+Parameters can be "held" at specific values when parameter
+estimation (either MLE or MCMC) is carried out.  This is handled
+within the model specification dialog boxes.
+
+Missing values are allowed.  In data files, these are
+encoded as NA.
